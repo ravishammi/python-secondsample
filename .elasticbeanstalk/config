@@ -1,0 +1,12 @@
+[global]
+ApplicationName=python-secondsample
+DevToolsEndpoint=git.elasticbeanstalk.us-east-1.amazonaws.com
+EnvironmentName=python-secondsample-env
+EnvironmentType=LoadBalanced
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=E:\Amazon_ec2\python-secondsample\.elasticbeanstalk\optionsettings.python-secondsample-env
+RdsEnabled=No
+Region=us-east-1
+ServiceEndpoint=https://elasticbeanstalk.us-east-1.amazonaws.com
+SolutionStack=64bit Amazon Linux 2013.09 running Python 2.7
+

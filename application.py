@@ -1,11 +1,3 @@
-
-
-
 def application(environ, start_response):
-    status = '200 OK'
-    headers = [('Content-type', 'text/plain')]
-
-    start_response(status, headers)
-
-	yield "Hello World.\n"
-
+    start_response('200 OK', [('Content-Type', 'text/plain')])
+    yield 'Hello World\n'
